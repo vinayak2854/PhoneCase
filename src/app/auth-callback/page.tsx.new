@@ -1,6 +1,6 @@
 "use client";
 
-import { useQuery } from "@tanstack/react-query-devtools";
+import { useQuery } from "@tanstack/query-core";
 import { useEffect, useState } from "react";
 import { getAuthStatus } from "./actions";
 import { useRouter } from "next/navigation";
@@ -42,4 +42,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Page; 
